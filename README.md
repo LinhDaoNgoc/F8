@@ -2,7 +2,7 @@
 
 - dùng var
 
-  +) Giới thiệu về toán tử trong JavaScript
++) Giới thiệu về toán tử trong JavaScript
 
 - Toán tử số học (Arithmetic)
 - Toán tử gán (Assignment)
