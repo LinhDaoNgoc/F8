@@ -1,6 +1,10 @@
 const express = require('express')
+const morgan = require('morgan')
 const app = express()
 const port = 3000
+
+
+app.use(morgan('combined'))
 
 app.get('/', (req, res) => {
     // var a = 1;
@@ -9,7 +13,7 @@ app.get('/', (req, res) => {
     // var c = a + b;
     // console.log(c);
 
-    return res.send('Chào bạn Linh nhé <3')
+    return res.send()
 })
 
 app.listen(port, () => {
